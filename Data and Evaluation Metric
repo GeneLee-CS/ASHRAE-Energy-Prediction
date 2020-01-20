@@ -1,0 +1,13 @@
+Evaluation Metric
+The evaluation metric for this competition is Root Mean Squared Logarithmic Error.
+
+The RMSLE is calculated as
+
+ϵ=1n∑i=1n(log(pi+1)−log(ai+1))2−−−−−−−−−−−−−−−−−−−−−−−−−−√
+Where:
+
+ϵ is the RMSLE value (score)
+n is the total number of observations in the (public/private) data set,
+pi is your prediction of target, and
+ai is the actual target for i.
+log(x) is the natural logarithm of x
